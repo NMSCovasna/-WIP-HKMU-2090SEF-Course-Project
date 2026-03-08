@@ -39,3 +39,4 @@ Only used for verifying the save function: This module aims to deal with the pro
 <h1>What's Next</h1>  
 
 <b>Advanced supporting methods</b> is still in planning status.
+The current focus is on <b>establishing a timeline</b> in the future and designing a feature that can repeat multiple cycles, rather than displaying it all at once.
