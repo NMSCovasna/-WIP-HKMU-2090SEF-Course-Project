@@ -3,7 +3,7 @@ Task1&amp;Task2
 
 This Project is maily use for the 2090SEF course project(Preliminary code submission).
 
-<title>Task 1</title>  
+<h1>Task 1</h1>  
 
 We are currently working on designing a portable student calendar program using OOP framework, which allows users to select dates and add to-do lists. The complete functionality is still under development and the code is not yet completed.
 
@@ -11,7 +11,7 @@ We are currently working on designing a portable student calendar program using 
 *WIP:GUI Interface*
 Only used for verifying the save function: This module aims to deal with the problem that program delete all stored todo list parameters automatically after user closed the program.
 
-<title>What's Next</title>  
+<h1>What's Next</h1>  
 
 <b>Advanced supporting methods</b> is still in planning status.
 
