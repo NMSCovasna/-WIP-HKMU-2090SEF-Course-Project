@@ -114,8 +114,12 @@ Step 2: Establish the first node as "root" and linking subsequent nodes hierachi
 
         -> Setting both left and right pointers to "None" initially.
 
+* Note: In standard Binary Search Tree (BST), the value of left-child node must be smaller than its parent node.
+
+        -> Ensure the value of node must be: Left-child < Parent < Right child.
+
 ``` python
-A
+
 ```
 
 <h2>B) Shell Sort Algorithm</h2>
