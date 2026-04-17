@@ -96,6 +96,18 @@ An in-place comparison sort which allows elements exchange in datasets by compar
 
 <h2>User Guide (how to run Python code)</h2>
 
+Question: How to sort out the list [61, 9, 62, 83, 37, 80, 32, 45, 93] by using Shell sort algorithm?
+
+Step 1: Choose a suitable gap sequence in initial stages, like (n/2 or n/4) in common. 
+
+        -> Divide the list into several subarrays.
+        
+        -> Time complexity depends on gap sequence chosen uniquely.
+
+Step 2: Elments would sort in each subarrays by using insertion sort.
+
+Step 3: The gap subside until becomes 1 after operate the process repeatedly like the code below. 
+
 ``` python
 def shell_sort(arr):
     size = len(arr)
@@ -117,3 +129,8 @@ if __name__ == '__main__':
     print(elements)
 ```
 
+Hence, it would sort out the list [61, 9, 62, 83, 37, 80, 32, 45, 93] by using Shell sort algorithm and results as:
+
+``` python
+[9, 32, 37, 45, 61, 62, 80, 83, 93]
+```
