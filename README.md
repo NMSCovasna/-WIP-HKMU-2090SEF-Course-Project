@@ -108,7 +108,7 @@ Question: How to use Binary tree data structure to create a binary tree of the b
 
 Pricinple: Ensure each node has at most two children.
 
-Step 1: Define the node structure with contain data(value) by create "class".
+Step 1: Define the node structure with contain data (value) by create "class".
 
 Step 2: Establish the first node as "root" and linking subsequent nodes hierachically with both left and right child pointer. 
 
@@ -119,7 +119,34 @@ Step 2: Establish the first node as "root" and linking subsequent nodes hierachi
         -> Ensure the value of node must be: Left-child < Parent < Right child.
 
 ``` python
+Class Node:
+    def __init__(self, data):
+        self.data = data 
+        self.left = None
+        self.right = None
+        
+root = Node(15)
+secondNode = Node(35)
+thirdNode = Node(40)
+fourthNode = Node(3)
+FifthNode = Node(6)
+SixthNode = Node(5)
+SeventhNode = Node(7)
+EigthNode = Node(1)
+NinthNode = Node(10)
+TenthNode = Node(8)
+EleventhNode = Node(41)
 
+root.left = secondNode
+root.right = thirdNode
+root.left.left = fourthNode 
+root.left.right = FifthNode
+root.right.left = SixthNode
+root.right.right = SeventhNode
+root.left.left.left = EigthNode
+root.left.left.right = NinthNode
+root.right.left.left = TenthNode
+root.right.left.right = EleventhNode
 ```
 
 <h2>B) Shell Sort Algorithm</h2>
