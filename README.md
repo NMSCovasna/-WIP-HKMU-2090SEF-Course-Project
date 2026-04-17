@@ -84,32 +84,17 @@ The current focus is on <b>establishing a timeline</b> in the future and designi
 
 <h1>Task 2</h1>
 
-We are currently choosing the <b>Binary tree</b> data structure and <b>Shell sort</b> algorithm program as our self-study topic, which acquire broader knowledge about algorithm development. The complete functionality is still under development and the code is not yet completed. 
-<br>
-
 <h2>A) Binary Tree Data Structure</h2>
 
-Binary Tree is a tree data structure in which each node has at most <b>2</b> children.
+A non-linear and hierarchincal conceptual model where every node has at most two children. Also, each node is build-up by three components: Data, left and right child pointers.
 
-<h2>Ai) Properties</h2>
-
-* Node: Each element in a binary tree. The topmost node is known as <b>Root Node</b> and node with no children classified as <b>Leaf Note</b>.
-* Height: Length of the longest path between the root and leaf.
-* Depth: Length of the path between root and note.
-* Subtree: Any node along with its descendants.
-<br>
+<h2>User Guide (how to run Python code)</h2>
 
 <h2>B) Shell Sort Algorithm</h2>
 
-Shell Sort is an extension of insertion sort that allows far apart items exchange. The main idea behind is to arrange the element lists. Thus, taking every ? element produres sorted lists starting anywhere.
+An in-place comparison sort which allows elements exchange in datasets by comparing through larger distances in initial stages, and reduce gap size and required swaps times to catalytic the process. 
 
-With sequence of gaps or intervals, allows for more efficient sorting than simple insertion sort.
-
-<h2>Bi) Key Concepts</h2>
-* Gaps: The algorithm begins by dividing the list into sublists based on gap vaule and sorted using an insertion sort. <br>
-* Gap Reduction: The gap reduced in each iteration until becomes <b>1</b>, which the final insertion sort is performed on nearly sorted array. <br>
-* Performance: Efficiency of shell sort comes from elements pre-sorting with larger intervals, which brings elements closer to their final position. <br>
-<br>
+<h2>User Guide (how to run Python code)</h2>
 
 ``` python
 def shell_sort(arr):
@@ -132,14 +117,3 @@ if __name__ == '__main__':
     print(elements)
 ```
 
-<h2>Bii) Time Complexity Analysis</h2>
-Can be analyzed depends on the <b>3</b> cases of gap sequence used. <br> 
-1) Standard: n / 2, n / 4, ... , 1 or O(n?). <br>
-2) Worst: O(n?) or O(nlog?n). <br>
-3) Best: O(n) for a nearly sorted array. <br>
-<br>
-
-<h2>C) Possible Application</h2>
-* Database Indexing <br>
-* Memoery Management <br>
-* Game Development <br>
